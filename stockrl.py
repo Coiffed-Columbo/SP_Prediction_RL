@@ -4,11 +4,11 @@ import time
 from stable_baselines.common.vec_env import DummyVecEnv
 
 # preprocessor
-from preprocessing.preprocessor import *
+from preprocessor import *
 # config
-from config.config import *
+from config import *
 # model
-from model.models import *
+from models import *
 import os
 
 def run_model() -> None:
